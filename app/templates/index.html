@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Docker test</title>
+    </head>
+    <body>
+        <h1>We'll show whatever list we have</h1>
+        <ul>
+            {% for i in things %}
+            <li>{{ i.thing }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
